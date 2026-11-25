@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Latihan deploy website dari GitHub ke Vercel.">
+  <meta name="theme-color" content="#f7f7f4">
+  <title>Deploy pertamaku — GitHub × Vercel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <nav class="nav" aria-label="Navigasi utama">
+      <a class="brand" href="#home" aria-label="Deploy pertamaku, beranda"><span class="brand-mark">↗</span> deploy<span class="brand-light">pertamaku</span></a>
+      <a class="nav-link" href="#langkah">Panduan <span aria-hidden="true">↓</span></a>
+    </nav>
+
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> LATIHAN WEB PERTAMAKU</p>
+        <h1 id="hero-title">Dari kode<br>jadi <span>online.</span></h1>
+        <p class="intro">Belajar menghubungkan GitHub dengan Vercel. Ubah kode, push ke GitHub, dan lihat website-mu diperbarui otomatis.</p>
+        <a class="button" href="#langkah">Lihat langkahnya <span aria-hidden="true">↓</span></a>
+      </div>
+
+      <div class="preview" aria-label="Ilustrasi alur deploy dari GitHub ke Vercel">
+        <div class="preview-top"><span><i></i><i></i><i></i></span><span>DEPLOY FLOW</span><span>01 — 03</span></div>
+        <div class="flow">
+          <div class="flow-card"><span class="flow-icon github" aria-hidden="true">⌘</span><strong>GitHub</strong><small>Simpan kode</small></div>
+          <span class="flow-arrow" aria-hidden="true">⟶</span>
+          <div class="flow-card"><span class="flow-icon vercel" aria-hidden="true">▲</span><strong>Vercel</strong><small>Terbitkan web</small></div>
+        </div>
+        <div class="preview-bottom"><span class="live-dot"></span> Setiap push, website ikut terbarui <span>↗</span></div>
+      </div>
+    </section>
+
+    <section class="steps" id="langkah" aria-labelledby="steps-title">
+      <div class="steps-heading"><p class="eyebrow">TIGA LANGKAH MUDAH</p><h2 id="steps-title">Mulai dari sini.</h2></div>
+      <ol class="step-list">
+        <li><span class="step-number">01</span><div><h3>Buat repository</h3><p>Simpan file website-mu di GitHub.</p></div><span class="step-symbol" aria-hidden="true">⌘</span></li>
+        <li><span class="step-number">02</span><div><h3>Hubungkan ke Vercel</h3><p>Import repository dan deploy dengan beberapa klik.</p></div><span class="step-symbol" aria-hidden="true">▲</span></li>
+        <li><span class="step-number">03</span><div><h3>Push perubahan</h3><p>Setiap push ke GitHub memicu deploy otomatis.</p></div><span class="step-symbol" aria-hidden="true">↗</span></li>
+      </ol>
+    </section>
+
+    <footer><a class="brand" href="#home"><span class="brand-mark">↗</span> deploy<span class="brand-light">pertamaku</span></a><span>Dibuat untuk belajar, satu deploy dalam satu waktu.</span></footer>
+  </main>
+</body>
+</html>
